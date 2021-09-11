@@ -1,0 +1,154 @@
+/* font-family: 'Red Hat Display', sans-serif; */
+/*
+- Pale blue: hsl(225, 100%, 94%) - bg
+- Bright blue: hsl(245, 75%, 52%) - bg proceed button
+
+- Very pale blue: hsl(225, 100%, 98%) - bg annual plan
+- Desaturated blue: hsl(224, 23%, 55%) - color p
+- Dark blue: hsl(223, 47%, 23%) - color title
+*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: hsl(223, 9%, 44%);
+    line-height: 1.6rem;
+}
+.whole_content_container{
+    background-color: hsl(225, 100%, 94%);
+    background-image:url(../images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 375px;
+    margin: 0 auto;
+    padding: 1em 0;
+    /* border: 1px solid red; */
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+
+/*-------Typography-----------*/
+
+h2{
+    font-size: 1.6rem;
+    margin-bottom: 1em;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+h3{
+    font-size: 1rem;
+    font-weight: 700;
+    color: hsl(223, 47%, 23%);
+}
+    
+
+    
+/*-------Layout-----------*/
+
+header{
+    /* border:solid 1px red; */
+    border-radius: 20px 20px 0  0;
+    background-color: hsl(245, 75%, 52%);
+}
+main{
+    width: 80%;
+    margin: 0 auto;
+    padding: 2em 0 1.5em 0;
+}
+.main_container{
+    max-width: 350px;
+    width: 90%;
+    background-color: white;
+    margin: 3em auto 3em auto;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0px 15px 15px 1px hsl(224, 23%, 55%, 20%);
+}
+.description{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 1.5em;
+}
+.container_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    padding: 1em;
+    margin-bottom: 1.5em;
+    border-radius: 15px;
+}
+.container_flex a{
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+    font-size: .8rem;
+    padding-bottom: 0.5em;
+}
+.container_flex a:hover{
+    color: hsl(245, 70%, 65%);
+}
+.container_flex_change{
+    flex-grow: 2;
+    text-align: right;
+}
+.container_flex_img{
+    margin-right: .7em;
+}
+.container_flex_annual_plan h3,
+.container_flex_annual_plan p{
+    font-size: .9rem;
+}
+.img_header{
+    object-fit: cover;
+    width: 100%;
+    border-radius: 20px 20px 0  0;
+}
+.button_proceed{
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 15px;
+    margin-bottom: 1em;
+    box-shadow: 0px 15px 15px 1px hsl(224, 23%, 55%, 30%);
+}
+.button_proceed a{
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    padding: 1em 3.5em;
+}
+.button_proceed:hover{
+    background-color: hsl(245, 70%, 65%);
+}
+.button_proceed h3{
+    color: white;
+}
+.button_cancel{
+    padding: 1em;
+}
+.button_cancel h3{
+    color: hsl(224, 23%, 55%);
+}
+.button_cancel a{
+    text-decoration: none;
+    padding-bottom: .5em;
+}
+.button_cancel  h3:hover{
+    color: hsl(223, 47%, 23%);
+}
+
+
+
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
