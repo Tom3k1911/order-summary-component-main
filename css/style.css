@@ -18,7 +18,7 @@
 }
 .whole_content_container{
     background-color: hsl(225, 100%, 94%);
-    background-image: url(images/pattern-background-mobile.svg);
+    background-image: url(../images/pattern-background-mobile.svg);
     background-repeat: no-repeat;
     background-position: top center;
     width: 375px;
@@ -147,8 +147,25 @@ main{
 .attribution {
     font-size: 11px;
     text-align: center;
-  }
+}
 
   .attribution a {
     color: hsl(228, 45%, 44%);
-  }
+}
+
+
+
+
+/*========= Responsive =========*/
+
+@media (min-width:500px) {
+    .whole_content_container{
+        background-image: url(../images/pattern-background-desktop.svg);
+        max-width: 1440px;
+        width: 100%;
+    }
+    .main_container{
+        max-width: 400px;
+        width: 70%;
+    }
+}
