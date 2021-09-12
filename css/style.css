@@ -153,9 +153,6 @@ main{
     color: hsl(228, 45%, 44%);
 }
 
-
-
-
 /*========= Responsive =========*/
 
 @media (min-width:500px) {
@@ -169,3 +166,4 @@ main{
         width: 70%;
     }
 }
+
